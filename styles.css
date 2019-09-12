@@ -194,4 +194,24 @@ div .partner-down{
     section.banner .side {
         display: none;
     }
+    #partner{
+        position: static;
+        max-width: 100%;
+        height: auto;
+        overflow-x: auto;
+    }
+    #partner .partners div{
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        width: 200px;
+        margin-left: 5px;
+    }
+    div .partner-down{
+        display: none;
+        /* margin: 0;
+        min-height: 100%;
+        width: 100%;
+        background: #f5f5f8 !important; */
+    }
 }
