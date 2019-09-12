@@ -3,15 +3,15 @@
     padding: 0;
     border: 0;
 }
+h1, .h1{
+    color: #333456;
+    font-family: 'Varela', cursive;
+}
 body{
     background: #fff;
     color: #72738E !important;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif";
+    font-family: 'Roboto', sans-serif;
 }
-/* #wrapper{
-    margin: 2em;
-    margin-top: 0;
-} */
 header, #header, div.down{
     background: #f5f5f8;
     padding: 4em;
@@ -68,16 +68,14 @@ header, #header, div.down{
 }
 
 .get-started h1{
-    color: #333456;
-    font-family: "Roboto", sans-serif;
-    font-size: 4.4rem;
+    font-size: 4.2rem;
 }
 .get-started p{
     margin-top: 2.5em;
     margin-bottom: 2em;
     font-size: 1.2rem;
     font-weight: lighter;
-    color: #333456
+    color: rgb(142, 143, 163);
 }
 .x{
     position: relative;
@@ -143,6 +141,8 @@ div .partner-down{
 }
 .rev-div .rev-img{
     margin: 5em;
+    border-radius: 100%;
+    width: auto;
 }
 .rev-div .review{
     width: 400px;
@@ -158,7 +158,7 @@ div .partner-down{
     border-left: .15em solid #72738E;
     
 }
-.rev-div .review .quoter div img{
+.sml-img{
     border-radius: 100%;
 }
 .rev-div .review .quoter div h6{
@@ -168,10 +168,47 @@ div .partner-down{
     display: inline-block;
     padding-left: 1.2em;
 }
+#about div.h3{
+    margin-top: 5em;
+}
+div.h3 div.hr{
+    display: inline-block;
+    border-top: 1px solid;
+    width: 80px;
+    position: relative;
+    top: -6px;
+    margin-left: .41em;
+    margin-right: .41em;
+}
+div.h3 span{
+    font-size: .5em;
+    font-weight: bolder;
+}
+div.row .h1{
+    font-weight: bolder;
+    margin-bottom: 2em;
+}
+#about .about{
+    width: 65%;
+}
+#about.abt-txt{
+    margin-bottom: 3em;
+}
+.a{
+    color: #333456;
+    font-weight: bolder;
+}
+section#how-it-works{
+    padding: 2em;
+    margin: 3em;
+}
 /* Media queries */
 @media only screen and (max-width: 650px) {
     body{
         max-width: 97vw;
+    }
+    .container{
+        max-width: 97%;
     }
     header, #header, div.down{
         text-align: center;
@@ -191,9 +228,7 @@ div .partner-down{
         margin-right: auto;
         margin-top: 3em;
     }
-    section.banner .side {
-        display: none;
-    }
+    
     #partner{
         position: static;
         max-width: 100%;
@@ -216,6 +251,7 @@ div .partner-down{
     }
     section#about{
         max-width: 100%;
+        text-align: center;
     }
     .rev-div{
         margin: 0;
@@ -232,6 +268,8 @@ div .partner-down{
         top: 0px;
         left: 0;
         text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
     section#about .quot{
         padding: 0;
@@ -242,5 +280,80 @@ div .partner-down{
     }
     .quoter .rv{
         margin-top: 1em;
+    }
+    #about div.h3{
+        margin-top: 0em;
+        margin-top: 0em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #about .int{
+        text-align: left;
+    }
+    div.h3 div.hr{
+        display: inline-block;
+        border-top: 1px solid;
+        width: 50px;
+        position: relative;
+        top: -6px;
+        margin-left: .41em;
+        margin-right: .41em;
+    }
+    div.h3 span{
+        font-size: .5em;
+        font-weight: bolder;
+    }
+    #about .about{
+        margin-top: 3em !important;
+        width: 100%;
+        padding: 1.5em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    div.row.h1{
+        text-align: center;
+    }
+    div.row .h1{
+        font-size: .8em;
+        font-weight: bolder;
+        margin-bottom: .4em;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #about .about p{
+        padding: 1em;
+    }
+    #about .int{
+        padding-left: 3em;
+    }
+    section#how-it-works{
+        text-align: center;
+        padding: 0;
+    }
+    #how-it-works div.h3{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 720px){
+    .container{
+        max-width: 97% !important;
+    }
+    section{
+        max-width: 97%;
+        padding: 20px;
+        text-align: center;
+        margin: 0;
+        margin-top: 2em;
+    }
+    section.banner .side {
+        display: none;
+    }
+    section#how-it-works{
+        text-align: center;
+        padding: 2em;
+        margin: 0em;
     }
 }
