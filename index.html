@@ -12,16 +12,16 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <header>
+        <header class="pb-0">
             <!-- Navbar -->
-            <nav class="navbar navbar-expand-lg navbar-light pl-4 pr-4">
+            <nav class="container navbar navbar-expand-lg navbar-light pl-4 pr-4">
                 <a class="navbar-brand m-4" href="#"><img src="images/upshift.jpeg" alt="upshift logo"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
                     aria-controls="navbarMenu" aria-expanded="true" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div id="navbarMenu" class="collapse navbar-collapse row mr-4 pr-4">
-                    <div class="col-md-3 col-sm-12">
+                    <div class="col-md-4 col-sm-12">
                         <ul class="navbar-nav mr-auto d-flex justify-content-around">
                             <li class="nav-item">
                                 <a class="nav-link" href="#"><span class="ml-2 mr-2"></span>Personal</a>
@@ -31,7 +31,6 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-1"></div>
                     <div class="col-md-4 col-sm-12">
                         <ul class="navbar-nav mr-auto d-flex justify-content-around">
                             <li class="nav-item"><a class="nav-link" href="#">About</a></li>
@@ -54,7 +53,7 @@
             <!-- /Navbar -->
 
             <!-- Header Banner -->
-            <section class="row banner p-2 w-100">
+            <section class="container banner row">
                 <div class="col-sm-12 col-md-6">
                     <div class="d-flex align-items-center rd w-100 p-5">
                         <div class="get-started w-100">
@@ -75,41 +74,37 @@
                 </div>
             </section>
             <!-- /Header Banner -->
-        </header>
-        <main class="container m-0 p-4" style="max-width: 99%">
-            <!-- Arrow down Div -->
-            <div class="row">
-                <div class="col-md-9 col-sm-12"></div>
-                <div class="partner-down col-md-3 col-sm-12">
-                    <div class=" m-0 p-0">
-                        <i class="fa fa-arrow-down" aria-hidden="true"></i>
-                    </div>
-                </div>
-            </div>
-            <!-- /Arrow down Div -->
-
+            
             <!-- Partner Section -->
-            <section id="partner" class="m-0 p-0">
-                <div class="partners d-flex m-0 p-0">
-                    <div>
+            <section id=" partner" class="m-0 p-0">
+                <div class="partners row d-flex m-0 p-0">
+                    <div class="col-2 p-0">
                         <img src="images/pt-11.PNG" class="w-100" alt="partner1">
                     </div>
-                    <div>
+                    <div class="col-2 p-0">
                         <img src="images/pt-21.PNG" class="w-100" alt="partner1">
                     </div>
-                    <div>
+                    <div class="col-2 p-0">
                         <img src="images/pt-31.PNG" class="w-100" alt="partner1">
                     </div>
-                    <div>
+                    <div class="col-2 p-0">
                         <img src="images/pt-41.PNG" class="w-100" alt="partner1">
                     </div>
-                    <div>
+                    <div class="col-2 p-0">
                         <img src="images/pt-51.PNG" class="w-100" alt="partner1">
+                    </div>
+                    <div class="col-2 partner-down p-0">
+                            <i class="fa fa-arrow-down" aria-hidden="true"></i>
                     </div>
                 </div>
             </section>
             <!-- /Partner Section -->
-
+            </div>
+    
+        </header>
+        <main class="container">
+            
+            
             <!-- About Section -->
             <section id="about" class="row mt-2">
                 <div class="col-md-6 col-sm-12 quot">
@@ -167,9 +162,10 @@
                             </p>
                         </div>
                         <div class="m-0 int">
-                                <img src="https://via.placeholder.com/45x45.png/72738E"
+                            <img src="https://via.placeholder.com/45x45.png/72738E"
                                 class="float-left sml-img mr-3" alt="find out about the company">
-                            <div class=" pl-2 d-inline-block ml-1">
+                            <hr>
+                            <div class="pl-2 d-inline-block ml-1">
                                 <div class="">
                                     Interested in our values?
                                 </div>
@@ -186,7 +182,7 @@
             <!-- About Section -->
 
             <!-- How it works -->
-            <section id="how-it-works" class="row bg-primary">
+            <section id="how-it-works" class="row">
                 <div class="row">
                     <div class="h3">
                         <span>02</span>
@@ -194,9 +190,66 @@
                         <span>HOW IT WORKS</span>
                     </div>
                 </div>
-                <div class="row"></div>
+                <div class="row info">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="how1">
+                            <span class="h1">
+                                Simple and handy rental process
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="how2">
+                            <p>
+                                Snow chains, surf board rack, key lock box,
+                                or dog car seat hammock available upon request
+                            </p>
+                            <hr>
+                            <div class="m-0 int">
+                                <img src="https://via.placeholder.com/45x45.png/72738E"
+                                    class="float-left sml-img mr-3" alt="find out about the company">
+                                <div class="">
+                                    <a href="#" class="a">Check the available accessories  
+                                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="how3">
+                            <p>
+                                Still got questions? 
+                                We've probably covered them all in the Help Center.
+                            </p>
+                            <hr>
+                            <div class="m-0 int">
+                                <img src="https://via.placeholder.com/45x45.png/72738E"
+                                    class="float-left sml-img mr-3" alt="find out about the company">
+                                <div>
+                                    <a href="#" class="a">Read our FAQ  
+                                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
             <!-- /How it works -->
+
+            <!-- Order -->
+            <section id="order" class="row">
+                <div class="col-md-3">
+                    <div class="ord-1">
+
+                    </div>
+                </div>
+                <div class="col-md-3"></div>
+                <div class="col-md-3"></div>
+                <div class="col-md-3"></div>
+            </section>
+            <!-- Order -->
         </main>
     </body>
 </html>
