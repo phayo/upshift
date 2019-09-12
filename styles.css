@@ -95,3 +95,7 @@ header, #header, div.down{
 .x.xy{
     transform: rotate(135deg);
 }
+.container{
+    padding-top: 0 !important;
+    padding-right: 0 !important;
+}
