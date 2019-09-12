@@ -209,6 +209,46 @@ section#how-it-works{
 #how-it-works span.h1{
     padding-top: 1.5em; 
 }
+#how-it-works a{
+    font-size: 0.7em;
+    margin-top: 30px;
+}
+#order{
+    text-align: center;
+    padding: 2em;
+}
+.ord-1, .ord-2, .ord-3, .ord-4{
+    padding: 1em;
+    border-bottom: 1px solid;
+}
+.ord-2, .ord-4{
+    position: relative;
+    top: 40px;
+}
+#order .o{
+    margin-bottom: 1em;
+}
+#order h4{
+    font-size: 1.6em;
+}
+#order p{
+    font-size: 0.9em;
+}
+#order .o-img{
+    width: 65px;
+    border-radius: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#order .o-img img{
+    border-radius: 100%;
+}
+#order .ord-2 p{
+    margin-bottom: 4em;
+}
+#order .ord-1 p{
+    margin-bottom: 2em;
+}
 /* Media queries */
 @media only screen and (max-width: 650px) {
     body{
@@ -350,6 +390,15 @@ section#how-it-works{
     }
     #how-it-works a{
         font-size: .8em;
+    }
+    #order .ord-2 p{
+        margin-bottom: 0em;
+    }
+    #order .ord-1 p{
+        margin-bottom: 0em;
+    }
+    .ord-2, .ord-4{
+        position: static;
     }
 }
 
