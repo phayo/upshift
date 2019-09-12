@@ -138,3 +138,33 @@ div .partner-down{
     padding-top: 49px;
     padding-bottom: 49px;
 }
+.rev-div{
+    position: relative;
+}
+.rev-div .rev-img{
+    margin: 5em;
+}
+.rev-div .review{
+    width: 400px;
+    background-color: #333456;
+    padding: 2em;
+    position: absolute;
+    bottom: -30px;
+    left: 100px;
+}
+.rev-div .review .quote{
+    font-size: .8em;
+    padding: 1em;
+    border-left: .15em solid #72738E;
+    
+}
+.rev-div .review .quoter div img{
+    border-radius: 100%;
+}
+.rev-div .review .quoter div h6{
+    color: #c2c2cc
+}
+.rev-div .review .quoter .col-md-6 .stars{
+    display: inline-block;
+    padding-left: 1.2em;
+} 
