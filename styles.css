@@ -249,6 +249,62 @@ section#how-it-works{
 #order .ord-1 p{
     margin-bottom: 2em;
 }
+#service{
+    margin-top: 6em;
+    padding-top: 8rem;
+}
+
+#service .img-cont{
+    z-index: 1;
+}
+#service .serve{
+    position: relative;
+    top: 5em;
+    right: 1.8em;
+    width: 100%;
+    height: 100%;
+    background-color: #333456;
+}
+#service .serve-sect{
+    transform: translateY(100px)
+}
+#service .col-md-7 .row{
+    height: 40px;
+    margin-bottom: 1em;
+}
+.serve h4.h1{
+    font-size: 2em;
+    color: white;
+    height: 40px;
+    margin-bottom: 1em;
+}
+.serve h6{
+    height: 15px;
+}
+#service ul{
+    list-style: none;
+    margin-bottom: 1em;
+}
+#service ul li:before{
+    content: "\2713\0020";
+    padding: 1em;
+}
+#service ul li span{
+    font-weight: bolder;
+    color: #fff;
+}
+#service ul li p{
+    margin-left: 3em;
+}
+#service a{
+    color: white;
+    font-size: .8rem;
+}
+#service .int{
+    
+    padding-top: 1em;
+    border-top: 1px solid;
+}
 /* Media queries */
 @media only screen and (max-width: 650px) {
     body{
@@ -399,6 +455,27 @@ section#how-it-works{
     }
     .ord-2, .ord-4{
         position: static;
+    }
+    #service{
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+    #service .img-cont{
+        display: none;
+    }
+    #service .serve{
+        position: static;
+        width: 100%;
+        height: auto;
+        background-color: #333456;
+    }
+    #service .serve-sect{
+        transform: translateY(0)
+    }
+    #service .serve-sect .row{
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
