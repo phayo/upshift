@@ -3,6 +3,9 @@
     padding: 0;
     border: 0;
 }
+.row{
+    margin: 0 auto;
+}
 h1, .h1{
     color: #333456;
     font-family: 'Varela', cursive;
@@ -310,8 +313,9 @@ section#how-it-works{
     border-top: 1px solid;
 }
 div#grad-2{
-    margin: 15em 0;
+    margin-top: 15em;
     padding: 0;
+    height: 706px;
 }
 #pricing{
     width: 100%;
@@ -395,6 +399,31 @@ div#grad-2{
 #pricing .card .card-a a{
     font-size: 13px;
     margin: 2em 0em;
+}
+#grad-3{
+    background-color: #f5f5f8;
+    margin-top: 10em;
+}
+#car .car-info .row{
+    margin: 6em 8em;
+}
+#car .car-info .car-ttl, #car .car-info .car-txt{
+    margin: 2em 0em;
+}
+#car .car-info .car-ttl p{
+    margin: 1.5em 0;
+}
+#car .car-pic{
+    transform: translateY(-50px)
+}
+#car .car-pic .car-pic2{
+    margin: 1em 0;
+}
+#car .car-pic .car-pic2 img{
+    display: inline;
+}
+#car .car-pic .car-pic2 .car-pic2-1{
+    transform: translate(30px, 0px)
 }
 /* Media queries */
 @media only screen and (max-width: 650px) {
@@ -600,6 +629,22 @@ div#grad-2{
     #pricing .prices{
         width: 100%;
         overflow-x: auto;
+    }
+    #car .car-info .row{
+        margin: 0;
+    }
+    #car .car-info .car-ttl, #car .car-info .car-txt{
+        margin: 1em 0em;
+    }
+    #car span.h1{
+        width: 100%;
+        font-size: 1.5em; 
+    }
+    #car .car-pic{
+        transform: translateY(0)
+    }
+    #car .car-pic .car-pic2{
+        display: none;
     }
 }
 
